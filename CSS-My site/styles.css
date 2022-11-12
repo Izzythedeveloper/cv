@@ -1,0 +1,133 @@
+body
+{
+    margin: 0;  text-align: center;
+}
+
+.container-one
+{ position: relative;  padding-top: 100px;  padding-right: 0;
+
+    background-color: #e4f9f5;
+}
+
+.middle-container
+{
+    margin: 100px 0;
+}
+.bottom-container
+{ padding: 50px 0 20px;
+
+    background-color: #66bfbf;
+}
+.footer-link
+{ margin: 0 50px;  text-decoration: none;
+
+    color: #11999e;
+}
+a:hover
+{
+    color: white;
+}
+.ee
+{
+    color: #eaf6f6;
+}
+.bottom-cloud
+{
+    position: absolute;  bottom: 300px; left: 300px;
+}
+
+h1
+{ font-family: 'Cabin sketch', sans-serif;  font-size: 562.5%; font-weight: lighter; line-height: 1;
+
+    margin: 50px auto 0;/* we use % because if u use px it will nt follow the size setting of the browser. For instance if the setting is very large, medium, or small it will remain 90px we can also use 'rem' it also follows the settings of the browser, its even preferable Note: 1em 16px and 100%=16px */
+
+    color: #66bfbf;
+}
+
+.btn
+{ font-family: 'Montserrat', sans-serif;  font-size: 20px;  padding: 10px 20px 10px 20px;  text-decoration: none; color: #fff;  -webkit-border-radius: 8;        -moz-border-radius: 8;                  border-radius: 8px;
+    background: #11cdd4;  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);  background-image:    -moz-linear-gradient(top, #11cdd4, #11999e);  background-image:     -ms-linear-gradient(top, #11cdd4, #11999e);  background-image:      -o-linear-gradient(top, #11cdd4, #11999e);  background-image:         linear-gradient(to bottom, #11cdd4, #11999e);
+}
+
+.btn:hover
+{ text-decoration: none;
+
+    background: #30e3cb;  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);  background-image:    -moz-linear-gradient(top, #30e3cb, #2bc4ad);  background-image:     -ms-linear-gradient(top, #30e3cb, #2bc4ad);  background-image:      -o-linear-gradient(top, #30e3cb, #2bc4ad);  background-image:         linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+h2
+{ font-family: 'El Messiri';
+    font-size: 2.5rem;  margin-top: 0;  color: #66bfbf;
+}
+
+h3
+{ font-family: 'Lemonada';
+
+    color: #11999e;
+}
+
+.contact
+{
+    margin: 30px auto 50px;
+}
+
+.head
+{
+    font-family: 'Montserrat', sans-serif;  line-height: 2;
+}
+
+p
+{
+    line-height: 2;  color: #40514e;
+}
+
+a
+{
+    color: #66bfbf;
+}
+
+hr
+{
+    width: 4%;  margin: 100px auto; border: dotted #eaf6f6;  border-bottom: none;
+}
+
+h3
+{
+    color: #66bfbf;
+}
+
+.skill-one
+{ float: left;
+
+    width: 25%;  margin-right: 30px;
+}
+
+.skill-two
+{ float: right;
+
+    width: 25%;  margin-left: 30px;
+}
+
+.skill-row
+{ line-height: 2;
+
+    width: 50%;  margin: 100px auto;  text-align: left;
+}
+.contact-me
+{
+    font-size: 15px;
+}
+.one-paragraph
+{
+    width: 30%;  margin: auto;
+}
+
+.top-cloud
+{
+    position: absolute;  top: 50px;  left: 900px;
+}
+
+.P-one
+{
+    font-family: 'Cabin Sketch', cursive;
+}
